@@ -1,0 +1,49 @@
+{
+  "name": "sinket-hitter",
+  "version": "3.0.0",
+  "description": "Ultimate Stripe Auto-Hitter - Sinket Edition | All Card Types | Real Results",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "tunnel": "bash scripts/tunnel.sh",
+    "setup": "bash scripts/setup.sh",
+    "termux": "bash scripts/termux-setup.sh"
+  },
+  "keywords": [
+    "stripe",
+    "automation",
+    "checkout",
+    "card-generator",
+    "visa",
+    "mastercard",
+    "amex",
+    "puppeteer",
+    "cloudflare-tunnel"
+  ],
+  "author": "Sinket",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "user-agents": "^1.1.156"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sinket/sinket-hitter.git"
+  }
+}
